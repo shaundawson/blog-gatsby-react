@@ -3,6 +3,7 @@ module.exports = {
     title: 'Black Friends Dinner',
     description: 'Where we navigate what #AllBlackLivesMatter means in a world where they dont, over food & drink made with love by NandiKayyy, Your resident Black Non-Binary Bae.',
     author: '@iamsdawson',
+    siteUrl: 'https://blackfriendsdinner.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

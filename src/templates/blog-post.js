@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Layout from '../components/layout';
 import Img from 'gatsby-image';
@@ -16,7 +17,7 @@ function BlogPost(props) {
                 title={title}
                 description={description}
                 thumbnail={url + thumbnail}
-
+                url={url}
                 pathname={props.location.pathname}
             />
             <div>

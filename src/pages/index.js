@@ -1,8 +1,8 @@
 import React from 'react'
 import './post.css';
 import { Link, graphql } from 'gatsby'
-
 import Layout from '../components/layout'
+
 const IndexPage = (props) => {
   const postList = props.data.allMarkdownRemark;
   return (
