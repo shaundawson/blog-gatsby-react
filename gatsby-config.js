@@ -7,15 +7,6 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'gatsby-starter-default',
@@ -28,7 +19,17 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-prismjs`,
+        ]
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
