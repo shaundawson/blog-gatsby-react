@@ -2,7 +2,7 @@
 title: "Episode 1"
 description: This post is related to the gatsbyjs
 date: '2018-12-20'
-image: ''
+image: 'time.jpg'
 ---
 Don't build a website with last decade's tech. The future of the web is mobile,
  JavaScript and APIs—the
