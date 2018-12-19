@@ -1,7 +1,7 @@
 ---
-title: "My first Blog post"
+title: "Episode 1"
 description: This post is related to the gatsbyjs
-date: '2018-12-19'
+date: '2018-12-20'
 image: ''
 ---
 Don't build a website with last decade's tech. The future of the web is mobile,
