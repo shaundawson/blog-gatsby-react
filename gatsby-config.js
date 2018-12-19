@@ -7,6 +7,8 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -19,9 +21,7 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
-    `gatsby-transformer-remark`,
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
+    `gatsby-plugin-catch-links`,
     'gatsby-plugin-offline',
     {
       resolve: `gatsby-transformer-remark`,
@@ -34,7 +34,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages`,
+        path: `${__dirname}/content`,
         name: "pages",
       },
     },

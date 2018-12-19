@@ -3,6 +3,7 @@ title: "Episode 1"
 description: This post is related to the gatsbyjs
 date: '2018-12-20'
 image: 'time.jpg'
+tags: ["animals", "Chicago", "zoos"]
 ---
 Don't build a website with last decade's tech. The future of the web is mobile,
  JavaScript and APIs—the
@@ -35,3 +36,4 @@ Ipsum as their default model text and a search for 'lorem ipsum' will
 uncover many web sites still in their infancy. Various versions have evolved
 over the years, sometimes by accident, sometimes on purpose
 (injected humor and the like).
+
