@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 const Header = ({ siteTitle }) => (
   <div>
@@ -18,7 +17,7 @@ const Header = ({ siteTitle }) => (
     <div class="navbar-end">
     <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item">
+      <a class="navbar-item" href="/">
         Home
       </a>
 
@@ -32,7 +31,7 @@ const Header = ({ siteTitle }) => (
         </a>
 
         <div class="navbar-dropdown">
-          <a class="navbar-item">
+          <a class="navbar-item" href="/episode1">
             Episode 001: 
           </a>
           <a class="navbar-item">
@@ -40,10 +39,9 @@ const Header = ({ siteTitle }) => (
           </a>
           <hr class="navbar-divider"/>
           <a class="navbar-item">
-            Report an issue
           </a>
         </div>
-        <a class="navbar-item">
+        <a class="navbar-item" href="/contact">
         Contact
       </a>
       </div>
@@ -51,7 +49,7 @@ const Header = ({ siteTitle }) => (
   </div>
 </div>
 </nav>
-  </div>
+</div>
 )
 
 export default Header

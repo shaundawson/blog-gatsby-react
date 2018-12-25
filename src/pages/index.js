@@ -10,9 +10,9 @@ const IndexPage = (props) => {
       {postList.edges.map(({ node }, i) => (
         <Link to={node.fields.slug} key={i} className="link" >
           <div className="post-list">
-            <h1>{node.frontmatter.title}</h1>
-            <span>{node.frontmatter.date}</span>
-            <p>{node.excerpt}</p>
+            <p class="title is-4">{node.frontmatter.title}</p>
+            <p class="subtitle is-7">{node.frontmatter.date}</p>
+            <p class="subtitle is-6">{node.excerpt}</p>
           </div>
         </Link>
       ))}

@@ -24,15 +24,19 @@ function BlogPost(props) {
                 pathname={props.location.pathname}
             />
             <div>
-                <h1>{title}</h1>
+            <h1 class="title is-4">{title}</h1>
                 {image && <Img fluid={image.childImageSharp.fluid} />}
                 <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }} />
                 <div>
-                    <span>Tagged in </span>
+                <br></br>
+                <p class="content is-small">
+                    <span><b>Guests </b></span>
                     {tags.map((tag, i) => (
                         <a href={`/${tag}`} key={i} style={{ marginLeft: "10px" }} >{tag}</a>
                     ))}
+                    </p>
                 </div>
+                <br></br>
                 <Share title={title} url={url} pathname={props.location.pathname} />
                 <PrevNext prev={prev && prev.node} next={next && next.node} />
             </div>

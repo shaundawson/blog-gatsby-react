@@ -13,7 +13,9 @@ const Share = props => {
 
     return (
         <div>
-            <h3 className="center">Share</h3>
+            <center>
+            <p class="subtitle is-6 is-spaced">Share this episode.</p>
+            </center>
             <ul className="social">
                 <li>
                     <a href={fb} target="blank">
