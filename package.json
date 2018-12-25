@@ -22,7 +22,7 @@
     "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "gatsby"
+    "black friends dinner"
   ],
   "license": "MIT",
   "scripts": {
@@ -37,6 +37,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/shaundawson/blog-gatsby-react"
   }
 }
