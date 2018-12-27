@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 
-const Contact = () => (
+const About= () => (
   <Layout>
   <div className="contact">
   <div className="field">
@@ -83,4 +83,4 @@ const Contact = () => (
 </Layout>
 )
 
-export default Contact
+export default About

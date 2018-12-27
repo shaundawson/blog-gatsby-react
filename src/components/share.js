@@ -6,7 +6,7 @@ import './share.css'
 const Share = props => {
 
     const twitter = `https://twitter.com/intent/tweet?url=${props.url +
-        props.pathname}&text=${props.title} by @nandikayyy`;
+        props.pathname}&text=${props.title} by @blackfriendsdin`;
 
     const fb = `https://www.facebook.com/sharer/sharer.php?u=${props.url +
         props.pathname}`;

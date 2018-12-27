@@ -28,6 +28,7 @@ module.exports = {
       options: {
         plugins: [
           `gatsby-remark-prismjs`,
+          'gatsby-remark-responsive-iframe',
         ]
       }
     },

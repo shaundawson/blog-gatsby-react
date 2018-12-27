@@ -62,8 +62,8 @@ function Metatags(props) {
                 { property: 'og:type', content: 'website' },
                 { name: 'robots', content: 'index, follow' },
 
-                { name: 'twitter:creator', content: '@nandikayyy' },
-                { property: 'og:site_name', content: 'Black Friends Dinner' }
+                { name: 'twitter:creator', content: '@blackfriendsdin' },
+                { property: 'og:site_name', content: 'Black Friends Dinner Podcast' }
             ]}
         >
             <html lang="en" />

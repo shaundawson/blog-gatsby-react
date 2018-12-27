@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import Layout from '../components/layout';
 import './post.css'
 
+
 function TagsPage(props) {
 
     const data = props.data.allMarkdownRemark.group
@@ -10,7 +11,7 @@ function TagsPage(props) {
     return (
         <Layout>
             <div className="tags">
-                <h1>All tags</h1>
+                <h1>All Guests</h1>
                 {
                     data.map(tag => (
                         <Link to={`/${tag.fieldValue}`} >

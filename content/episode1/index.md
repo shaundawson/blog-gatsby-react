@@ -3,7 +3,7 @@ title: "Episode 001: Blackademia | 77 min"
 description: This post is related to the gatsbyjs
 date: '2018-12-20'
 image: 'blackademia.jpg'
-tags: ["Hari Ziyad", "Ahmad Green-Hayes"]
+tags: ["hariziyad", "  ahmadgreenhayes"]
 ---
 
 <i> Since the days of slavery, constraining black education was used as a method to quell black agency and fears of slave rebellions. This denial only intensified Black people's desire for education. After emancipation,black education was relegated to poorly funded segregated schools.
@@ -24,7 +24,7 @@ This week I have Hari Ziyad and Ahmad Greene-Hayes over for dinner to talk about
 <b> Ahmad Greene-Hayes</b> is pursuing a Ph.D. in Religion and African American Studies from Princeton University, where he is also a fellow at the Center for the Study of Religion. He studies 19th-20th century African American and Africana religious histories and gender, sexuality and religion. He is also the founder of Children of Combahee, an organization committed to ending sexual violence in Black church communities. When he is not researching in archives or writing, he can be found cooking in his kitchen or tweeting about reality tv and fitness. 
 <br>
 <br>
-<b>Today in White History: “Do it for the Gaze” </b>
-While representation seems to be very important in instilling confidence in a person, or group of people, but so often, White folks access to Black representation blows in our faces. Let's talk about some instances: Racebaitr Article: Sam Whiteout
+<b>Today in White History: “Do it for the Gaze” </b><br>
+While representation seems to be very important in instilling confidence in a person, or group of people, but so often, White folks access to Black representation blows in our faces. Let's talk about some instances: <a href="https://racebaitr.com/2018/12/04/our-desire-for-white-validation-created-sam-whiteout/">Racebaitr Article: Sam Whiteout</a>
 </div>
 

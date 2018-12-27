@@ -30,7 +30,7 @@ function BlogPost(props) {
                 <div>
                 <br></br>
                 <p class="content is-small">
-                    <span><b>Guests </b></span>
+                    <span><b>Tags:</b></span>
                     {tags.map((tag, i) => (
                         <a href={`/${tag}`} key={i} style={{ marginLeft: "10px" }} >{tag}</a>
                     ))}

@@ -3,12 +3,12 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout';
 import '../pages/post.css'
 
-function Tags(props) {
+function Guests(props) {
     const posts = props.data.allMarkdownRemark.edges;
     const { tag } = props.pageContext;
     return (
         <Layout>
-            <h1>{`Available posts  in ${tag}`}</h1>
+            <h1>{`Available episodes  featuring ${tag}`}</h1>
             <div className="tags">
                 {
                     posts.map(({ node }, i) => (
@@ -23,7 +23,7 @@ function Tags(props) {
 }
 
 
-export default Tags;
+export default Guests;
 
 
 export const query = graphql`

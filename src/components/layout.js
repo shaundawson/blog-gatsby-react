@@ -19,7 +19,7 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Black Friends Dinner' },
+            { name: 'description', content: 'Black Friends Dinner Podcast' },
           ]}
         >
           <html lang="en" />
@@ -28,7 +28,7 @@ const Layout = ({ children }) => (
         <div
           style={{
             margin: '0 auto',
-            maxWidth: 960,
+            maxWidth: 1000,
             padding: '0px 1.0875rem 1.45rem',
             paddingTop: 0,
           }}

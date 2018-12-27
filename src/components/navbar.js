@@ -4,7 +4,7 @@ const Header = ({ siteTitle }) => (
   <div>
   <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="https://blackfriendsdinner.com">
+    <a class="navbar-item" href="/">
       <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"/>
     </a>
 
@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
         Home
       </a>
 
-      <a class="navbar-item">
+      <a class="navbar-item" href="/about">
         About
       </a>
 
@@ -31,14 +31,12 @@ const Header = ({ siteTitle }) => (
         </a>
 
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="/episode1">
-            Episode 001: 
-          </a>
-          <a class="navbar-item">
-            Episode 002: 
+          <a class="navbar-item" href="/episodes">
+           All Episodes
           </a>
           <hr class="navbar-divider"/>
-          <a class="navbar-item">
+          <a class="navbar-item" href="/guests" >
+          Browse Guests
           </a>
         </div>
         <a class="navbar-item" href="/contact">
