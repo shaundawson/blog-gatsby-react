@@ -25,6 +25,6 @@ This week I have Hari Ziyad and Ahmad Greene-Hayes over for dinner to talk about
 <br>
 <br>
 <b>Today in White History: “Do it for the Gaze” </b><br>
-While representation seems to be very important in instilling confidence in a person, or group of people, but so often, White folks access to Black representation blows in our faces. Let's talk about some instances: <a href="https://racebaitr.com/2018/12/04/our-desire-for-white-validation-created-sam-whiteout/">Racebaitr Article: Sam Whiteout</a>
+While representation seems to be very important in instilling confidence in a person, or group of people, but so often, White folks access to Black representation blows in our faces. Let's talk about some instances: <a href="https://racebaitr.com/2018/12/04/our-desire-for-white-validation-created-sam-whiteout/"  target=”_blank”>Racebaitr Article: Sam Whiteout</a>
 </div>
 
