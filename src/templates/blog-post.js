@@ -58,7 +58,7 @@ export const query = graphql`
         tags
         image {
           childImageSharp {
-            resize(width: 1000, height: 420) {
+            resize(width: 1000, height: 300) {
               src
             }
             fluid(maxWidth: 786) {

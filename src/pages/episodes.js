@@ -15,9 +15,7 @@ const Episodes = (props) => {
           <div className="post-list">
             <p class="title is-4">{node.frontmatter.title}</p>
             <p class="subtitle is-7">{node.frontmatter.date}</p>
-            <p class="subtitle is-6">{node.excerpt}</p>
-            <p class="subtitle is-6">{node.frontmatter.tags}</p>
-            
+            <p class="subtitle is-6">{node.excerpt}</p>            
           </div>
         </Link>
       ))}

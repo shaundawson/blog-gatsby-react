@@ -3,7 +3,7 @@ title: "Episode 001: Blackademia | 77 min"
 description: This post is related to the gatsbyjs
 date: '2018-12-20'
 image: 'blackademia.jpg'
-tags: ["hariziyad", "  ahmadgreenhayes"]
+tags: ["hariziyad", "ahmadgreenhayes"]
 ---
 
 <i> Since the days of slavery, constraining black education was used as a method to quell black agency and fears of slave rebellions. This denial only intensified Black people's desire for education. After emancipation,black education was relegated to poorly funded segregated schools.

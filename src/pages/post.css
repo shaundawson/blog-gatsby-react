@@ -18,7 +18,8 @@ html {
 }
 
 img{
-  height: 75% !important;
+  height: 95% !important;
+  padding: 0,
 }
 
 .post-list:hover{
