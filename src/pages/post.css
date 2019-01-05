@@ -1,9 +1,14 @@
 html {
     background-color: #ffffff;
 }
-.hero {
-    background-color: #26132f;
+
+.has-bg-img { 
+  /*  background-image: url('https://i.imgur.com/0sqhJvp.jpg'); */
+    background-repeat: no-repeat;
+
+   
 }
+
 .link{
 
     text-decoration: none;

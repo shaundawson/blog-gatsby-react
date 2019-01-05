@@ -1,7 +1,9 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import './layout.css';
 import { StaticQuery, graphql } from 'gatsby'
 import Navbar from './navbar'
+
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -36,6 +38,13 @@ const Layout = ({ children }) => (
         >
           {children}
         </div>
+        <footer class="footer">
+          <div class="content has-text-centered">
+              <p>
+              <strong>Black Friends Dinner</strong> with <a href="https://iamsdawson.com">Nandikayyy</a>.
+              </p>
+          </div>
+        </footer>
       </>
     )}
   />
