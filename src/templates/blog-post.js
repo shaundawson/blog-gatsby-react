@@ -24,7 +24,7 @@ function BlogPost(props) {
                 pathname={props.location.pathname}
             />
             <div>
-            <h1 class="title is-4">{title}</h1>
+            <h1 class="title is-4  ">{title}</h1>
                 {image && <Img fluid={image.childImageSharp.fluid} />}
                 <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }} />
                 <div>

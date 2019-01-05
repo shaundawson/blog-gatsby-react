@@ -2,12 +2,13 @@ import React from 'react'
 
 const Header = ({ siteTitle }) => (
   <div>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-black" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="/">
-      <img src="https://i.imgur.com/rLaAAZ2.png" width="auto" height="auto"/>
+      <h1>
+      Black Friends Dinner
+      </h1>
     </a>
-
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
@@ -37,10 +38,10 @@ const Header = ({ siteTitle }) => (
           Browse Guests
           </a>
         </div>
-        <a class="navbar-item" href="/contact">
-        Contact
-      </a>
       </div>
+      <a class="navbar-item" href="/contact">
+      Contact
+    </a>
     </div>
   </div>
 </div>

@@ -27,21 +27,13 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet>
         <Navbar siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: '0 auto',
-            maxWidth: 1000,
-            padding: '0px 1.0875rem 1.45rem',
-            paddingTop: 0,
-            paddingBottom: 0,
-          }}
-        >
+        <div>
           {children}
         </div>
         <footer class="footer">
           <div class="content has-text-centered">
               <p>
-              <strong>Black Friends Dinner</strong> with <a href="https://iamsdawson.com">Nandikayyy</a>.
+              <strong>Streaming</strong> on <a href="https://iamsdawson.com">ITUNES</a> <a href="https://iamsdawson.com">SPOTIFY</a> <a href="https://iamsdawson.com">GOOGLEPLAY</a>
               </p>
           </div>
         </footer>
