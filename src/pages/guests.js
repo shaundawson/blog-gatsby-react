@@ -12,6 +12,7 @@ function TagsPage(props) {
         <Layout>
             <div className="tags">
                 <h1>All Guests</h1>
+                <br></br>
                 {
                     data.map(tag => (
                         <Link to={`/${tag.fieldValue}`} >

@@ -31,12 +31,20 @@ const Layout = ({ children }) => (
           {children}
         </div>
         <footer class="footer">
-          <div class="content has-text-centered">
-              <p>
-              <strong>Streaming</strong> on <a href="https://iamsdawson.com">ITUNES</a> <a href="https://iamsdawson.com">SPOTIFY</a> <a href="https://iamsdawson.com">GOOGLEPLAY</a>
-              </p>
-          </div>
-        </footer>
+        <div class="content has-text-centered is-small" >
+          <p>
+            <strong>Streaming on
+             <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hdWRpb2Jvb20uY29tL2NoYW5uZWxzLzQ5ODI3MzgucnNz">    Google Play,</a>
+             <a href="https://itunes.apple.com/us/podcast/black-friends-dinner/id1447664860?mt=2&ls=1&ign-mpt=uo%3D4">    Itunes, </a>
+             <a href="https://open.spotify.com/show/5xBPxVpKQxE1Ut5TkEWLjH">    Spotify,</a>
+             <a href="https://audioboom.com/channels/4982738.rss">    and RSS</a>.
+             </strong>
+             <br></br>
+            Web Design by
+            <a href="http://www.iamsdawson.com"> iamsdawson</a>. 
+          </p>
+        </div>
+      </footer>
       </>
     )}
   />

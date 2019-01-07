@@ -1,7 +1,31 @@
 .footer {
     margin-top: 50px;
+    padding: 20px;
+    background-color: #ffffff;
 }
 
 .navbar {
     padding-bottom: 10px;
+    padding-left:10px;
+    padding-right:50px;
+}
+
+.menu-label {
+    padding: 5px;
+}
+
+.fa-home {
+    margin-right: 2px;
+}
+
+.fa-search {
+    margin-right: 2px;
+}
+
+.fa-envelope {
+    margin-right: 2px;
+}
+
+.fa-info-circle {
+    margin-right: 2px;
 }
