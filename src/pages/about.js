@@ -7,11 +7,6 @@ const About= () => (
   <div class="container has-text">
       <div class="columns is-vcentered">
           <div class="column is-5">
-              <figure class="image is-4by4">
-                  <img src="https://i.imgur.com/rLaAAZ2.png" alt=""/>
-              </figure>
-          </div>
-          <div class="column is-6 is-offset-1">
               <h1 class="title is-3">
                   About Black Friends Dinner
               </h1>
