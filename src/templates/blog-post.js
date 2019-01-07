@@ -5,6 +5,7 @@ import { graphql } from 'gatsby'
 import PrevNext from '../components/prevnext';
 import MetaTags from '../components/Metatags';
 import Share from '../components/share';
+import '../pages/post.css';
 
 
 function BlogPost(props) {
@@ -23,8 +24,9 @@ function BlogPost(props) {
                 url={url}
                 pathname={props.location.pathname}
             />
-            <div>
-            <h1 class="title is-4  ">{title}</h1>
+            <div className="container">
+            <h1 class="title is-2  ">{title}</h1>
+            <br></br>
                 {image && <Img fluid={image.childImageSharp.fluid} />}
                 <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }} />
                 <div>

@@ -2,14 +2,18 @@ html {
     background-color: #ffffff;    
 }
 
+.container {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 .has-bg-img { 
   /*  background-image: url('https://i.imgur.com/0sqhJvp.jpg'); */
     background-repeat: no-repeat;
-   
 }
 
 .hero-body{
-    margin-bottom: 50px;
 }
 
 .media {
@@ -26,6 +30,12 @@ html {
 .link{
     text-decoration: none;
     color: black;
+}
+
+.is-2 {
+    padding-top: 20px;
+
+
 }
 
 .post-list {
