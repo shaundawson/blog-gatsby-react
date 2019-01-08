@@ -3,48 +3,48 @@ import './layout.css';
 
 const Header = ({ siteTitle }) => (
   <div>
-  <nav class="navbar is-black" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="/">
-    <i class="large material-icons">graphic_eq</i>
+  <nav className="navbar is-black" role="navigation" aria-label="main navigation">
+  <div className="navbar-brand">
+    <a className="navbar-item" href="/">
+    <i className="large material-icons">graphic_eq</i>
       <h1>
       Black Friends Dinner Podcast
       </h1>
     </a>
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+    <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
-    <div class="navbar-end">
+    <div className="navbar-end">
     <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-    <a class="navbar-item" href="/">
-    <i class="fas fa-home"></i>
+    <div className="navbar-start">
+    <a className="navbar-item" href="/">
+    <i className="fas fa-home"></i>
        Home
     </a>
-      <a class="navbar-item" href="/about">
-      <i class="fas fa-info-circle"></i>
+      <a className="navbar-item" href="/about">
+      <i className="fas fa-info-circle"></i>
         About 
       </a>
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-        <i class="fas fa-search "></i>
+      <div className="navbar-item has-dropdown is-hoverable">
+        <a className="navbar-link">
+        <i className="fas fa-search "></i>
           Episodes
         </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="/episodes">
+        <div className="navbar-dropdown">
+          <a className="navbar-item" href="/episodes">
            All Episodes
           </a>
-          <hr class="navbar-divider"/>
-          <a class="navbar-item" href="/guests" >
+          <hr className="navbar-divider"/>
+          <a className="navbar-item" href="/guests" >
           Browse Guests
           </a>
         </div>
       </div>
-      <a class="navbar-item" href="/contact">
-      <i class="fas fa-envelope "></i>
+      <a className="navbar-item" href="/contact">
+      <i className="fas fa-envelope "></i>
       Contact
     </a>
     </div>

@@ -20,9 +20,6 @@ As musicians ourselves, what do we see changing that we like, and what have we l
 Aviva Jaye & Myles share their thoughts.
  </div>
 
-<br>
-<br>
-
 <p class="title is-4">Show Notes</p>
 <div class="content is-medium">
 <b> Myles</b> is an all around performer. He sings, dances, acts and writes. His primary love is singing and is big on artist collaboration. He believes that he could not live without creativity.

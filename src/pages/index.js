@@ -7,15 +7,9 @@ import Layout from '../components/layout'
 const IndexPage = (props) => {
   return (
     <Layout>
-    <section class="hero is-large is-black is-bold">
-  <div class="hero-body">
-    <div class="container is-fluid">
-      <h1 class="title">
-        Black Friends Dinner
-      </h1>
-      <h2 class="subtitle is-3">
-       Where we navigate what #alllivesmattermeans in a world where they don't.<br></br>
-      </h2>
+    <section className="hero is-fullheight has-bg-img">
+  <div className="hero-body">
+    <div className="container is-fluid ">
     </div>
   </div>
 </section>

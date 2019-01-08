@@ -1,9 +1,9 @@
 .footer {
     background-color: #ffffff;
+    padding: 20px;
 }
 
 .navbar {
-    padding-bottom: 10px;
     padding-left:10px;
     padding-right:50px;
 }

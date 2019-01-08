@@ -3,17 +3,19 @@ html {
 }
 
 .container {
-    padding-top: 10px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
 .has-bg-img { 
-  /*  background-image: url('https://i.imgur.com/0sqhJvp.jpg'); */
+    background-image: url('https://i.imgur.com/tjdPlYk.png'); 
     background-repeat: no-repeat;
+    background-position: bottom right; 
+
 }
 
 .hero-body{
+
 }
 
 .media {
@@ -43,11 +45,6 @@ html {
     padding: .5rem;
     box-shadow: 0 -1px 4px #ede7e7;
     margin: 1rem;
-}
-
-img{
-  height: 95% !important;
-  padding: 0,
 }
 
 .post-list:hover{

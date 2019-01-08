@@ -7,15 +7,15 @@ const Episodes = (props) => {
   const postList = props.data.allMarkdownRemark;
   return (
   <Layout>
-  <section class="section">
-  <div class="container">
-    <h1 class="title">All Episodes</h1>
+  <section className="section">
+  <div className="container">
+    <h1 className="title">All Episodes</h1>
       {postList.edges.map(({ node }, i) => (
         <Link to={node.fields.slug} key={i} className="link" >
           <div className="post-list">
-            <p class="title is-4">{node.frontmatter.title}</p>
-            <p class="subtitle is-7">{node.frontmatter.date}</p>
-            <p class="subtitle is-6">{node.excerpt}</p>            
+            <p className="title is-4">{node.frontmatter.title}</p>
+            <p className="subtitle is-7">{node.frontmatter.date}</p>
+            <p className="subtitle is-7"> Guests: {node.frontmatter.tags}</p>            
           </div>
         </Link>
       ))}

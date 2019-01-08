@@ -6,15 +6,13 @@ image: 'blackademia.jpg'
 tags: ["hariziyad", "ahmadgreenhayes"]
 ---
 
-Since the days of slavery, constraining black education was used as a method to quell black agency and fears of slave rebellions. This denial only intensified Black people's desire for education. After emancipation,black education was relegated to poorly funded segregated schools.
-This week I have Hari Ziyad and Ahmad Greene-Hayes over for dinner to talk about Education and Blackness.
-
-<br>
 <div>
 <center><iframe width="100%" height="300" style="background-color:transparent; display:block; padding: 0; max-width:700px;" frameborder="0" allowtransparency="allowtransparency" scrolling="no" src="//embeds.audioboom.com/posts/7123857-blackademia/embed/v4?eid=AQAAAI8PHFyRs2wA" title="Audioboom player"></iframe></center>
 </div>
 <br>
 <br>
+Since the days of slavery, constraining black education was used as a method to quell black agency and fears of slave rebellions. This denial only intensified Black people's desire for education. After emancipation,black education was relegated to poorly funded segregated schools.
+This week I have Hari Ziyad and Ahmad Greene-Hayes over for dinner to talk about Education and Blackness.
 
 <p class="title is-5"><u>Show Notes</u></p>
 <div class="content is-small">
