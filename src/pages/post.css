@@ -1,5 +1,5 @@
 html {
-    background-color: #ffffff;    
+    background-color: #442555;    
 }
 
 .container {
@@ -8,15 +8,12 @@ html {
 }
 
 .has-bg-img { 
-    background-image: url('https://i.imgur.com/tjdPlYk.png'); 
+    background-image: url('https://i.imgur.com/X0Uy9Uc.png'); 
     background-repeat: no-repeat;
-    background-position: bottom right; 
+    background-position: center; 
 
 }
 
-.hero-body{
-
-}
 
 .media {
     margin-top: 20px;

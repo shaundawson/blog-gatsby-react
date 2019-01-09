@@ -3,8 +3,13 @@ import Layout from '../components/layout'
 
 const NotFoundPage = () => (
   <Layout>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+  <Layout>
+  <section className="hero is-fullheight has-bg-img">
+<div className="hero-body">
+  <div className="container is-fluid ">
+  </div>
+</div>
+</section>
   </Layout>
 )
 
