@@ -3,7 +3,6 @@ import Layout from '../components/layout'
 
 const NotFoundPage = () => (
   <Layout>
-  <Layout>
   <section className="hero is-fullheight has-bg-img">
 <div className="hero-body">
   <div className="container is-fluid ">

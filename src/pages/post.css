@@ -1,16 +1,17 @@
 html {
-    background-color: #442555;    
+    background-color: #ffffff;
 }
 
 .container {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .has-bg-img { 
     background-image: url('https://i.imgur.com/X0Uy9Uc.png'); 
     background-repeat: no-repeat;
     background-position: center; 
+    background-color: #442555;
 
 }
 
