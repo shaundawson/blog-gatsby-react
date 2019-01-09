@@ -14,17 +14,17 @@ const Share = props => {
     return (
         <div>
             <center>
-            <p class="title is-6">Share this episode.</p>
+            <p className="title is-6">Share this episode.</p>
             </center>
             <ul className="social">
                 <li>
                     <a href={fb} target="blank">
-                    <i class="fab fa-facebook" aria-hidden="true"></i>
+                    <i className="fab fa-facebook" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li>
                     <a href={twitter} target="blank">
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                    <i className="fab fa-twitter" aria-hidden="true"></i>
 
                     </a>
                 </li>

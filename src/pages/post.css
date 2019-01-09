@@ -59,14 +59,14 @@ html {
 .tags a{
     margin-bottom: 2rem;
     list-style: none;
-    background-color: #ececec;
+    background-color:#442555;
     border: 1px solid #ffff;
     border: 1px solid #ffff;
     width: 80%;
     padding: 1rem;
     text-decoration: none;
     font-size: 1.1rem;
-    color: rgb(31, 26, 26);
+    color: #ffffff;
 }
 
 .contact{

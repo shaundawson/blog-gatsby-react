@@ -25,13 +25,13 @@ function BlogPost(props) {
                 pathname={props.location.pathname}
             />
             <div className="container">
-            <h1 class="title is-2  ">{title}</h1>
+            <h1 className="title is-2  ">{title}</h1>
             <br></br>
                 {image && <Img fluid={image.childImageSharp.fluid} />}
                 <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }} />
                 <div>
                 <br></br>
-                <p class="content is-small">
+                <p className="content is-small">
                     <span><b>Tags:</b></span>
                     {tags.map((tag, i) => (
                         <a href={`/${tag}`} key={i} style={{ marginLeft: "10px" }} >{tag}</a>

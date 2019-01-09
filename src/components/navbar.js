@@ -12,13 +12,13 @@ const Header = ({ siteTitle }) => (
       </h1>
     </a>
     <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
+      <span aria-hidden="true"> </span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
     <div className="navbar-end">
-    <div id="navbarBasicExample" class="navbar-menu">
+    <div id="navbarBasicExample" className="navbar-menu">
     <div className="navbar-start">
     <a className="navbar-item" href="/">
     <i className="fas fa-home"></i>
@@ -29,7 +29,7 @@ const Header = ({ siteTitle }) => (
         About 
       </a>
       <div className="navbar-item has-dropdown is-hoverable">
-        <a className="navbar-link">
+        <a className="navbar-link" href="/episodes">
         <i className="fas fa-search "></i>
           Episodes
         </a>
