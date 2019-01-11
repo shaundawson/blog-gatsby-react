@@ -40,7 +40,9 @@ function BlogPost(props) {
                 </div>
                 <br></br>
                 <Share title={title} url={url} pathname={props.location.pathname} />
+                <div className="prev-next">
                 <PrevNext prev={prev && prev.node} next={next && next.node} />
+                </div>
             </div>
         </Layout>
     )

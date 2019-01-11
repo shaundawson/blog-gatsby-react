@@ -4,19 +4,16 @@ import Layout from '../components/layout'
 
 const Contact = () => (
   <Layout>
-  <div className="contact">
-  <h1 className="title is-3">
-  Send a message.
-</h1>
+  <div className="contact contact-hero">
   <div className="field">
-  <label className="label">Name</label>
+  <label className="label is-light">Name</label>
   <div className="control">
     <input className="input is-dark" type="text" placeholder="Your Name"/>
   </div>
 </div>
 
 <div className="field">
-  <label className="label">Email</label>
+  <label className="label is-light">Email</label>
   <div className="control has-icons-left has-icons-right">
     <input className="input is-dark" type="email" placeholder="Your Email"/>
     <span className="icon is-small is-left">
@@ -26,15 +23,16 @@ const Contact = () => (
 </div>
 
 <div className="field">
-  <label className="label">Message</label>
+  <label className="label is-light">Message</label>
   <div className="control">
     <textarea className="textarea is-dark" placeholder="Textarea"></textarea>
   </div>
 </div>
+<br></br>
 
 <div className="field is-grouped">
   <div className="control">
-    <button className="button is-dark">Submit</button>
+    <button className="button is-primary">Submit</button>
   </div>
 </div>
 </div>
