@@ -1,19 +1,25 @@
 import React from 'react'
 import Layout from '../components/layout'
+import './post.css'
+
+
 
 
 
 const About= () => (
   <Layout>
+  <section className="hero is-fullheight about-hero">
   <div className="hero-body">
-  <div className="container has-text">
-      <div className="columns is-vcentered">
-          <div className="column is-8">
-              <h1 className="title is-2">
-                  About Black Friends Dinner
-              </h1>
+    <div className="container">
+    </div>
+    <div className="columns">
+    <div className="container is-fluid"> 
+          <div className="column is-12">
+              <h2 className="subtitle is-4 is-light">
               <br></br>
-              <h2 className="subtitle is-3">
+              <br></br>
+              <br></br>
+
               Black Friends Dinner is a table side conversation where guests 
               navigate what it means to value Black lives in a world that doesn't.
                This pro-Black podcast happens over soul food and drink made with 
@@ -23,14 +29,18 @@ const About= () => (
               </h2>
               <br></br>
               <p className="has-text">
-                  <a className="button is-medium is-info is-outlined">
-      Learn more
+                  <a className="button is-medium is-primary" href='/contact'>
+      Contact Us
     </a>
+    <br></br>
+    <br></br>
               </p>
+              </div>
           </div>
       </div>
   </div>
-</div>
+
+</section>
 </Layout>
 )
 

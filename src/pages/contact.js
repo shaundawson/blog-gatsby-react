@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 const Contact = () => (
   <Layout>
   <div className="contact">
-  <h1 class="title is-3">
+  <h1 className="title is-3">
   Send a message.
 </h1>
   <div className="field">

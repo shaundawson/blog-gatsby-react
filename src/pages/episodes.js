@@ -8,7 +8,7 @@ const Episodes = (props) => {
   <Layout>
   <section className="section">
   <div className="container">
-    <h1 className="title">All Episodes</h1>
+    <h1 className="title is-3">All Episodes</h1>
       {postList.edges.map(({ node }, i) => (
         <Link to={node.fields.slug} key={i} className="link" >
           <div className="post-list">

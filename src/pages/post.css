@@ -3,11 +3,24 @@ html {
 }
 
 .container {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
+.is-light{
+    color: white;
+}
+
+.about-hero {
+    margin-top: -100px;
+    background-image: url('https://i.imgur.com/jBttun9.png'); 
+    background-repeat: no-repeat;
+    background-position: top-center; 
+    background-color: #442555;
+} 
+
 .has-bg-img { 
+    margin-top: -75px;
     background-image: url('https://i.imgur.com/X0Uy9Uc.png'); 
     background-repeat: no-repeat;
     background-position: center; 

@@ -39,7 +39,7 @@ const Layout = ({ children }) => (
                <a href="https://audioboom.com/channels/4982738.rss" target="_blank"  rel="noopener noreferrer">    and RSS</a>.
                </strong>
                <br></br>
-              Web Design by
+              This site was created by 
               <a href="http://www.iamsdawson.com" target="_blank" rel="noopener noreferrer"> Shaun Dawson</a>. 
             </p>
           </div>

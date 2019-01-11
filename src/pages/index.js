@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 const IndexPage = (props) => {
   return (
     <Layout>
-    <section className="hero is-fullheight has-bg-img">
+    <section className="hero has-bg-img is-fullheight">
   <div className="hero-body">
     <div className="container is-fluid ">
     </div>
