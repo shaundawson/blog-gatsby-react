@@ -1,7 +1,11 @@
-# blog-gatsby-react
-A blazing speed blog with SEO and offline support using gatsby.js which is a static site generator built on top of the react.# blog-gatsby-react
+# Black Friends Dinner Podcast - - Official Website
+A blazing speed podcast website with SEO and offline support using gatsby.js.
 
-# Install 
+# Technologies Used
+GatsbyJS
+ReactJS
+
+# Installing Gatsby 
 Install the Gatsby CLI program
 
 ```javascript
