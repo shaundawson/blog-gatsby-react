@@ -4,6 +4,7 @@ A blazing speed podcast website with SEO and offline support using gatsby.js.
 # Technologies Used
 GatsbyJS
 ReactJS
+Bulma 
 
 # Installing Gatsby 
 Install the Gatsby CLI program

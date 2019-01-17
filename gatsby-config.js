@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Black Friends Dinner',
+    title: 'Black Friends Dinner Podcast',
     description: 'Where we navigate what #AllBlackLivesMatter means in a world where they dont, over food & drink made with love by NandiKayyy, Your resident Black Non-Binary Bae.',
-    author: '@iamsdawson and @nandikayyy',
+    author: 'Shaun Dawson',
     siteUrl: 'https://blackfriendsdinner.com',
   },
   plugins: [

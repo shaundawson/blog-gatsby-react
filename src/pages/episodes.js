@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
+import 'bulma/css/bulma.css'
 
 const Episodes = (props) => {
   const postList = props.data.allMarkdownRemark;

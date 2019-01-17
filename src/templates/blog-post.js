@@ -6,6 +6,7 @@ import PrevNext from '../components/prevnext';
 import MetaTags from '../components/Metatags';
 import Share from '../components/share';
 import '../pages/post.css';
+import 'bulma/css/bulma.css'
 
 
 function BlogPost(props) {

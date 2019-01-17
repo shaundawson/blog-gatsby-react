@@ -1,17 +1,20 @@
 import React from 'react'
 import Layout from '../components/layout'
+import 'bulma/css/bulma.css'
 
 
 const Contact = () => (
   <Layout>
   <div className="contact contact-hero">
+  <h2 className="title is-3 is-light"> Send us a message
+  </h2>
     <div className="field">
       <label className="label is-light is-medium">Name</label>
         <div className="control">
         <input className="input is-dark is-medium" type="text" placeholder="Your Name"/>
         </div>
     </div>
-    <form action="sendEail.php" method="post" id="contactForm" name="contactForm">
+    <form action="https://formspree.io/nandikayyy@blackfriendsdinner.com" method="POST" />
         <div className="field">
         <label className="label is-light is-medium">Email</label>
   <div className="control has-icons-left has-icons-right">
@@ -25,17 +28,16 @@ const Contact = () => (
 <div className="field">
   <label className="label is-light is-medium">Message</label>
   <div className="control">
-    <textarea className="textarea is-dark is-large" placeholder="Type message here"></textarea>
+    <textarea className="textarea is-dark is-medium" placeholder="Type message here"></textarea>
   </div>
 </div>
 <br></br>
 
 <div className="field is-grouped">
   <div className="control">
-    <button className="button is-primary is-large">Submit</button>
+    <button className="button is-warning is-medium">Send</button>
   </div>
 </div>
-</form>
 </div>
 </Layout>
 )

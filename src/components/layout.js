@@ -24,14 +24,14 @@ const Layout = ({ children }) => (
             { name: 'description', content: 'Black Friends Dinner Podcast' },
           ]}
         >
-          <html lang="en" />
+        <html lang="en" />
         </Helmet>
         <Navbar siteTitle={data.site.siteMetadata.title} />
         <div>
           {children}
-          <footer className="footer">
-          <div className="content has-text-centered is-small" >
-            <p>
+        <footer className="footer">
+        <div className="content has-text-centered is-small" >
+        <p>
               <strong>Streaming on
                <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hdWRpb2Jvb20uY29tL2NoYW5uZWxzLzQ5ODI3MzgucnNz" target="_blank" rel="noopener noreferrer" >    Google Play,</a>
                <a href="https://itunes.apple.com/us/podcast/black-friends-dinner/id1447664860?mt=2&ls=1&ign-mpt=uo%3D4" target="_blank" rel="noopener noreferrer" >    Itunes, </a>
@@ -48,6 +48,7 @@ const Layout = ({ children }) => (
       </>
     )}
   />
+  
 )
 
 
