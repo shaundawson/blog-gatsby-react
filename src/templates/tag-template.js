@@ -9,7 +9,8 @@ function Guests(props) {
     const { tag } = props.pageContext;
     return (
         <Layout>
-            <h1>{`Available episodes  featuring ${tag}`}</h1>
+        <br></br>
+           <center> <h1>{`Available episodes  featuring ${tag}`}</h1> </center>
             <div className="tags">
                 {
                     posts.map(({ node }, i) => (

@@ -1,5 +1,5 @@
 ---
-title: "Episode 002: We Are the Afro-Future | 126 min"
+title: "Episode 002: We Are the Afro-Future | 85 min"
 description: 
 date: '2019-01-03'
 image: 'afrofuture.jpg'
