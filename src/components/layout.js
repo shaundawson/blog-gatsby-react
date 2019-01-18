@@ -21,7 +21,7 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Black Friends Dinner Podcast' },
+            { name: 'description', content: 'Black Friends Dinner is a table side conversation where guests navigate what it means to value Black lives in a world that does not.' },
           ]}
         >
         <html lang="en" />
