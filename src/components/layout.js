@@ -18,10 +18,19 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+      
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
             { name: 'description', content: 'Black Friends Dinner is a table side conversation where guests navigate what it means to value Black lives in a world that does not.' },
+          ]}
+          script={[
+            { 'src': 'https://use.fontawesome.com/releases/v5.0.7/js/all.js'},
+          ]}
+
+          link={[
+            {'rel':'stylesheet', 'href': 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'},
+            {'rel':'stylesheet', 'href': 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'}
           ]}
         >
         <html lang="en" />

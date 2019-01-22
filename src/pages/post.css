@@ -13,41 +13,38 @@ html {
 
 .video-container {
     position: relative;
-    padding-bottom: 110%;
     padding-top: 35px;
-    height: 0;
-    overflow: hidden;
 }
 
+
 .about-hero {
-    background-image: url('https://i.imgur.com/hJE79E6.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #000000;
+    background-color: #442555;
 } 
 
 .contact-hero {
-    background-repeat: no-repeat;
     background-size: contain;
     background-position: top-left; 
     background-color: #442555;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 } 
 
 .episodes-hero {
-    background-size: contain;
-    background-color: #442555
+    background-image: url('https://i.imgur.com/hJE79E6.jpg'); 
+    background-size: cover;
+    background-color: #442555;
+    background-repeat: no-repeat;
 } 
 
 
 .has-bg-img { 
     background-image: url('https://i.imgur.com/X0Uy9Uc.png'); 
     background-size: contain;
-    height: 575px;
+    height: 625px;
     background-repeat: no-repeat;
     background-position: center; 
     background-color: #442555;
-    padding-bottom: 20px;
 
 }
 
