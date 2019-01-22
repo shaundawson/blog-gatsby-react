@@ -17,13 +17,16 @@
     "gatsby-source-filesystem": "^2.0.12",
     "gatsby-transformer-remark": "^2.1.17",
     "gatsby-transformer-sharp": "^2.1.9",
+    "iframe": "^1.0.0",
     "prismjs": "^1.15.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-bulma-components": "^2.3.0",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
-    "react-iframe": "^1.3.3"
+    "react-iframe": "^1.3.3",
+    "responsive": "^2.0.0",
+    "responsive-iframe": "^0.0.1"
   },
   "keywords": [
     "black friends dinner"

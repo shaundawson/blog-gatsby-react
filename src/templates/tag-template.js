@@ -10,7 +10,7 @@ function Guests(props) {
     return (
         <Layout>
         <br></br>
-           <center> <h1>{`Available episodes  featuring ${tag}`}</h1> </center>
+           <center> <h1>{`Available episodes with ${tag}`}</h1> </center>
             <div className="tags">
                 {
                     posts.map(({ node }, i) => (

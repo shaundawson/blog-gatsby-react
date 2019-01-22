@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
   <div className="navbar-brand">
     <a className="navbar-item" href="/">
     <h1>
-    Black Friends Dinner
+    Black Friends Dinner Podcast
     </h1>
     </a>
     <div className="navbar-burger burger" data-target="navbarExampleTransparentExample" >
@@ -62,10 +62,7 @@ const Header = ({ siteTitle }) => (
     </a>
     <div className="navbar-dropdown is-boxed">
       <a className="navbar-item" href="/episodes">
-       Episodes
-      </a>
-      <a className="navbar-item" href="guests">
-        Guests
+       All Episodes
       </a>
     </div>
   </div>

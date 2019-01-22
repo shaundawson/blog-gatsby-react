@@ -1,17 +1,14 @@
 import React from 'react'
 import Layout from '../components/layout'
-import './post.css'
-import 'bulma/css/bulma.css'
+import '../pages/post.css';
 
 const About= () => (
   <Layout>
   <section className="hero is-medium about-hero">
   <div className="hero-body">
-    <div className="columns is-centered">
-      <div className="column is-10" >
       <h2 className="title is-3 is-light"> About Black Friends Dinner
       </h2>
-        <h2 className="subtitle is-5 is-light">
+        <h2 className="subtitle is-5">
           Black Friends Dinner is a table side conversation where guests 
           navigate what it means to value Black lives in a world that doesn't.
           This pro-Black podcast happens over soul food and drink made with 
@@ -27,8 +24,6 @@ const About= () => (
     <br></br>
               </p>
               </div>
-          </div>
-      </div>
 </section>
 </Layout>
 )

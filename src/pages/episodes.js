@@ -26,7 +26,8 @@ const Episodes = (props) => {
           <div className="post-list">
             <p className="title is-4">{node.frontmatter.title}</p>
             <p className="subtitle is-7">{node.frontmatter.date}</p>
-            <p className="subtitle is-7"> Guests: {node.frontmatter.tags}</p>            
+            <p className="subtitle is-7"> Tags: {node.frontmatter.tags}</p>    
+            <p className="subtitle is-7"> {node.excerpt}</p>          
           </div>
         </Link>
       ))}
@@ -39,21 +40,21 @@ const Episodes = (props) => {
 export default Episodes;
 
 export const listQuery = graphql`
-  query ListQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          fields{
-            slug
-          }
-          excerpt(pruneLength: 250)
-          frontmatter {
-            date(formatString: "MMMM Do YYYY")
-            title
-            tags
-          }
+query ListQuery {
+  allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    edges {
+      node {
+        fields{
+          slug
+        }
+        excerpt(pruneLength: 250)
+        frontmatter {
+          date(formatString: "MMMM Do YYYY")
+          title
+          tags
         }
       }
     }
   }
+}
 `

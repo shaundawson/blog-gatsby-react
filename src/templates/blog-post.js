@@ -4,7 +4,6 @@ import Img from 'gatsby-image';
 import { graphql } from 'gatsby'
 import PrevNext from '../components/prevnext';
 import MetaTags from '../components/Metatags';
-import Share from '../components/share';
 import '../pages/post.css';
 import 'bulma/css/bulma.css'
 
@@ -40,7 +39,6 @@ function BlogPost(props) {
                     </p>
                 </div>
                 <br></br>
-                <Share title={title} url={url} pathname={props.location.pathname} />
                 <div className="prev-next">
                 <PrevNext prev={prev && prev.node} next={next && next.node} />
                 </div>

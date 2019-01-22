@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, graphql } from "gatsby"
 import Layout from '../components/layout';
-import './post.css';
 import 'bulma/css/bulma.css'
 
 
@@ -12,7 +11,7 @@ function TagsPage(props) {
     return (
         <Layout>
             <div className="tags">
-                <h1>All Guests</h1>
+                <h1>Tags</h1>
                 <br></br>
                 {
                     data.map(tag => (

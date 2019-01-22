@@ -1,6 +1,5 @@
 import React from 'react'
 import Layout from '../components/layout'
-import 'bulma/css/bulma.css'
 import './post.css'
 
 
