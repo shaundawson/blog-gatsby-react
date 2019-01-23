@@ -9,8 +9,9 @@ const Header = ({ siteTitle }) => (
   <nav className="navbar is-black">
   <div className="navbar-brand">
     <a className="navbar-item" href="/">
+    <i class="fas fa-headphones"></i>
     <h1>
-    Black Friends Dinner Podcast
+     Black Friends Dinner Podcast
     </h1>
     </a>
     <div className="navbar-burger burger" data-target="navbarExampleTransparentExample" >
@@ -33,24 +34,11 @@ const Header = ({ siteTitle }) => (
       </a>
       <div className="navbar-item has-dropdown is-hoverable">
         <a className="navbar-link" href="">
-          Subscribe
+          Search 
         </a>
         <div className="navbar-dropdown is-boxed">
           <a className="navbar-item" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hdWRpb2Jvb20uY29tL2NoYW5uZWxzLzQ5ODI3MzgucnNz" target="_blank" rel="noopener noreferrer">
-            Google Play
-          </a>
-          <a className="navbar-item" href="https://itunes.apple.com/us/podcast/black-friends-dinner/id1447664860?mt=2&ls=1&ign-mpt=uo%3D4" target="_blank" rel="noopener noreferrer" > 
-            Itunes
-          </a>
-          <a className="navbar-item" href="https://open.spotify.com/show/5xBPxVpKQxE1Ut5TkEWLjH" target="_blank" rel="noopener noreferrer"> 
-            Spotify
-          </a>
-          <a className="navbar-item" href="https://radiopublic.com/black-friends-dinner-6B3V9q" target="_blank"  rel="noopener noreferrer">  
-            Radio Public
-        </a>
-          <hr className="navbar-divider"></hr>
-          <a className="navbar-item" href="https://audioboom.com/channels/4982738.rss" target="_blank"  rel="noopener noreferrer">  
-            RSS
+            All Episodes
           </a>
         </div>
       </div>

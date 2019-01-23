@@ -12,14 +12,16 @@ const IndexPage = (props) => {
     </section>
     <section className="section">
   <div className="container">
-    <h1 className="title is-4">Latest Episode</h1>
+    <h1 className="title is-latest">
+    <i class="fas fa-level-down-alt"></i>
+    
+    latest episode</h1> 
     <div className="video-container is-fluid">
     <center>
     <iframe src="https://embeds.audioboom.com/posts/7146191-episode-003-hip-hop-made-the-instagram-star/embed/v4?eid=AQAAABVtRlzPCm0A" 
-    height="315" 
-    width="290" 
-    allowfullscreen="" 
-    frameborder="0">
+    height="350" 
+    width="350" 
+    >
     </iframe>
     </center>
     </div>
