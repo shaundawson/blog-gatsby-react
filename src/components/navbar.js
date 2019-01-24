@@ -1,63 +1,64 @@
 import React from 'react';
 
+class Navbar extends React.Component {
 
+  state = {
+    isActive: false,
+  }
 
-const Header = ({ siteTitle }) => (
+  toggleNav = () => {
+    this.setState(prevState => ({
+      isActive: !prevState.isActive
+    }))
+  }
 
-  
-  <div>
-  <nav className="navbar is-black">
-  <div className="navbar-brand">
-    <a className="navbar-item" href="/">
-    <i class="fas fa-headphones"></i>
-    <h1>
-     Black Friends Dinner Podcast
-    </h1>
-    </a>
-    <div className="navbar-burger burger" data-target="navbarExampleTransparentExample" >
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </div>
-
-  <div id="navbarExampleTransparentExample" className="navbar-menu">
-    <div className="navbar-start">
-      <a className="navbar-item" href="/">
-        Home
-      </a>
-      <a className="navbar-item" href="/about">
-      About
-      </a>
-      <a className="navbar-item" href="/contact">
-      Contact
-      </a>
-      <div className="navbar-item has-dropdown is-hoverable">
-        <a className="navbar-link" href="">
-          Search 
-        </a>
-        <div className="navbar-dropdown is-boxed">
-          <a className="navbar-item" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hdWRpb2Jvb20uY29tL2NoYW5uZWxzLzQ5ODI3MzgucnNz" target="_blank" rel="noopener noreferrer">
-            All Episodes
+  render() {
+    return (
+      <nav className="navbar is-purple"
+          aria-label="main navigation">
+        <div className="navbar-brand">
+          <a className="navbar-item" href="/">
+          <span className="icon" style={{ color: '#fff',}}>
+          <i class="fas fa-headphones"></i>
+        </span>
+            <span>BlackFriendsDinner.com</span>
           </a>
+          <button className="button navbar-burger" onClick={this.toggleNav}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </div>
-      </div>
-    </div>
+        <div className={ this.state.isActive ? 'navbar-menu is-active' : 'navbar-menu'}>
+          <div className="navbar-start">
+            <a className="navbar-item" href="/about">
+              About
+            </a>
+            <a className="navbar-item" href="/episodes">
+              Episodes
+            </a>
+            <a className="navbar-item" href="/contact">
+            Contact
+            </a>
+          </div>
+          <div className="navbar-end">
+          <a className="navbar-item" href="https://www.facebook.com/BlackFriendsDinner/" href='/contact'>
+        </a>
+            <a className="navbar-item" href="https://twitter.com/blackfriendsdin" target="blank">
+              <span className="icon" style={{ color: '#fff',}}>
+                <i className="fab fa-lg fa-twitter"></i>
+              </span>
+            </a>
+            <a className="navbar-item" href="https://www.facebook.com/BlackFriendsDinner/" target="blank">
+              <span className="icon" style={{ color: '#fff',}}>
+                <i className="fab fa-lg fa-facebook"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </nav>
+    )
+  }
+}
 
-    <div className="navbar-item has-dropdown is-hoverable">
-    <a className="navbar-link is-warning" href="/episodes">
-      Search
-    </a>
-    <div className="navbar-dropdown is-boxed">
-      <a className="navbar-item" href="/episodes">
-       All Episodes
-      </a>
-    </div>
-  </div>
-</div>
-</nav>
-
-</div>
-)
-export default Header
-
+export default Navbar

@@ -1,6 +1,3 @@
-html {
-    background-color: #ffffff;
-}
 
 .container {
     padding-right: 10%;
@@ -11,11 +8,18 @@ html {
     color: white!important;
 }
 
-.video-container {
-    position: relative;
-    padding-top: 35px;
+.navbar-item{
+    color: #fff!important;    
 }
 
+.is-purple {
+    background-color: #442555!important;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+}
 
 .about-hero {
     background-size: cover;
@@ -36,7 +40,6 @@ html {
     background-color: #442555;
     background-repeat: no-repeat;
 } 
-
 
 .has-bg-img { 
     background-image: url('https://i.imgur.com/X0Uy9Uc.png'); 
@@ -67,6 +70,7 @@ html {
 .is-latest {
     margin-top: -20px;
     text-align: center;
+    color: #442754!important;
 }
 
 .is-2 {
@@ -86,6 +90,24 @@ html {
     padding: .5rem;
     margin: 1rem;
     background-color: white;
+}
+
+
+.navbar-burger{
+    color: #f1ba4c!important;
+    background-color: #442754!important;
+
+}
+.navbar-menu.is-active {
+    background-color: #442754!important;
+}
+
+
+a.navbar-item:hover {
+    background-color: #442754!important;
+    color: #f1ba4c!important;
+    
+
 }
 
 .post-list:hover{
@@ -109,7 +131,7 @@ html {
     padding: 1rem;
     text-decoration: none;
     font-size: 1.1rem;
-    color: #ffffff;
+    color: 
 }
 
 .prev-next{
@@ -121,5 +143,10 @@ html {
     padding-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.fa-arrow-down {
+    margin-right: 10px;
+    color: #f1ba4c;
 }
 

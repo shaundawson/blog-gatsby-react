@@ -4,22 +4,17 @@
 
 .navbar {
     padding-left:10px;
+    text-decoration: none;
 }
 
 .menu-label {
     padding: 5px;
 }
 
-.fa-headphones {
-    margin-right: 2px;
-}
 
 .fa-level-down-alt{
     margin-right: 2px;
 }
 
-.fa-envelope {
-    margin-right: 2px;
-}
 
 

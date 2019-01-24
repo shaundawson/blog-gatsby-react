@@ -8,19 +8,9 @@ const Episodes = (props) => {
   const postList = props.data.allMarkdownRemark;
   return (
   <Layout>
-  <section className="hero is-medium episodes-hero">
-  <div className="hero-body">
-    <div className="container">
-    </div>
-    <div className="columns">
-    <div className="container"> 
-          </div>
-      </div>
-  </div>
-</section>
 <section className="section">
   <div className="container">
-    <h1 className="title is-3">Browse Episodes</h1>
+    <h1 className="title is-3">All Episodes</h1>
       {postList.edges.map(({ node }, i) => (
         <Link to={node.fields.slug} key={i} className="link" >
           <div className="post-list">

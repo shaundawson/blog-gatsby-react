@@ -13,8 +13,7 @@ const IndexPage = (props) => {
     <section className="section">
   <div className="container">
     <h1 className="title is-latest">
-    <i class="fas fa-level-down-alt"></i>
-    
+    <i className="fas fa-arrow-down"></i>
     latest episode</h1> 
     <div className="video-container is-fluid">
     <center>
