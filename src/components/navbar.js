@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Navbar extends React.Component {
+class Header extends React.Component {
 
   state = {
     isActive: false,
@@ -19,7 +19,7 @@ class Navbar extends React.Component {
         <div className="navbar-brand">
           <a className="navbar-item" href="/">
           <span className="icon" style={{ color: '#fff',}}>
-          <i class="fas fa-headphones"></i>
+          <i className="fas fa-headphones"></i>
         </span>
             <span>BlackFriendsDinner.com</span>
           </a>
@@ -61,4 +61,4 @@ class Navbar extends React.Component {
   }
 }
 
-export default Navbar
+export default Header

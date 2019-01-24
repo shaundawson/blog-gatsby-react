@@ -24,15 +24,12 @@ const Layout = ({ children }) => (
           title={data.site.siteMetadata.title}
           meta={[
             { name: 'description', content: 'Black Friends Dinner is a table side conversation where guests navigate what it means to value Black lives in a world that does not.' },
-            { name: 'viewport', content:'width=device-width, initial-scale=1.0'},
-            { name: 'keywords', content: 'podcast, black friends dinner, nandikayyy,' },
+            { name: 'keywords', content: 'podcast, black friends dinner, nandikayyy' },
 
             
           ]}
           script={[
             { 'src': 'https://use.fontawesome.com/releases/v5.0.7/js/all.js'},
-            { 'src': 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'},
-
 
           ]}
 
@@ -57,7 +54,7 @@ const Layout = ({ children }) => (
                <a href="https://audioboom.com/channels/4982738.rss" target="_blank"  rel="noopener noreferrer">    and RSS</a>.
                </strong>
                <br></br>
-              This site was created by 
+              This site was coded by 
               <a href="http://www.iamsdawson.com" target="_blank" rel="noopener noreferrer"> Shaun Dawson</a>. 
             </p>
           </div>
