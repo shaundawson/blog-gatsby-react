@@ -12,13 +12,13 @@ tags: ["hariziyad ", "ahmadgreenhayes "]
 <br>
 <br>
 
-<div class="content is-medium">
+<div class="content is-small">
 Since the days of slavery, constraining black education was used as a method to quell black agency and fears of slave rebellions. This denial only intensified Black people's desire for education. After emancipation,black education was relegated to poorly funded segregated schools.
 This week I have Hari Ziyad and Ahmad Greene-Hayes over for dinner to talk about Education and Blackness.
 </div>
-<br>
+
 <p class="title is-5"><u>Show Notes</u></p>
-<div class="content is-medium">
+<div class="content is-small">
 <b> Hari Ziyad</b> is an artist, the author of Black Boy Out of Time (Little A, 2020) and the Editor-in-Chief of the digital publication, RaceBaitr. They received their BFA from New York University, where they concentrated in Film and Television and Psychology. Hari is also a script consultant on the drama series David Makes Man (OWN, 2019), the Managing Editor for Black Youth Project and an Assistant Editor for Vinyl Poetry & Prose.
 <br>
 <br>

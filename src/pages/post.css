@@ -1,15 +1,21 @@
 
 .container {
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 10%!important;
+    padding-left: 10%!important;
+    width: 100%!important;
+    overflow: hidden!important;
 }
 
 .is-light{
     color: white!important;
+    font-size: 24px!important;
+    font-weight: 300!important;
 }
+
 
 .navbar-item{
     color: #fff!important;    
+    font-weight: 300!important;
 }
 
 .is-purple {
@@ -17,25 +23,25 @@
 }
 
 .video-container {
-    position: relative;
-    width: 100%;
+    position: relative!important;
+    width: 100%!important;
+    overflow:hidden!important;
 }
 
 .about-hero {
-    background-size: cover;
+    background-size: cover!important;
     background-repeat: no-repeat;
     background-color: #442555;
 } 
 
 .contact-hero {
-    background-size: contain;
-    background-position: top-left; 
+    background-size: contain!important;
+    background-position: top!important; 
     background-color: #442555;
     padding-bottom: 40px;
 } 
 
 .episodes-hero {
-    background-image: url('https://i.imgur.com/hJE79E6.jpg'); 
     background-size: cover;
     background-color: #442555;
     background-repeat: no-repeat;
@@ -62,34 +68,56 @@
     margin-right: 10%;
 }
 
-.link{
-    text-decoration: none;
-    color: black;
+.bio {
+    padding-bottom: 30px!important;
+    font-size: 16px!important;
+    line-height: 1.25em!important;
 }
 
-.is-latest {
-    margin-top: -20px;
-    text-align: center;
+.link{
+    text-decoration: none;
     color: #442754!important;
 }
 
-.is-2 {
-    padding-top: 20px;
+.is-latest {
+    text-align: center;
+    color: #442754!important;
+    font-size: 20px!important;
+    font-weight: 300!important;
+    padding-top: -50px!important;
+}
+
+.is-3 {
+    color: #442754!important;
+    font-size: 18px!important;
 }
 
 .is-4 {
-    color: #442754;
+    color: #442754!important;
+    font-size: 18px!important;
+    padding-top: 20px!important;
 }
 
 .is-5 {
-    color: #ffffff!important;
+    color:  #442754!important;
 }
 
+.is-tags {
+    margin-top: -10px!important;
+    color: #2695f0!important;
+}
+
+a link {
+    margin-left: 5px!important;
+}
+
+
 .post-list {
-    border: 1px solid #442754;
+    border: 1px solid  #f1ba4c!important;
     padding: .5rem;
     margin: 1rem;
     background-color: white;
+    
 }
 
 
@@ -125,16 +153,15 @@ a.navbar-item:hover {
     margin-bottom: 2rem;
     list-style: none;
     background-color:#442555;
-    border: 1px solid #ffff;
-    border: 1px solid #ffff;
     width: 80%;
     padding: 1rem;
     text-decoration: none;
     font-size: 1.1rem;
-    color: 
+    color: #f1ba4c!important;
 }
 
 .prev-next{
+    font-size: 12px;
     padding-top: 20px;
     padding-bottom: 100px;
 }
@@ -143,10 +170,43 @@ a.navbar-item:hover {
     padding-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
+    width: 100%;
+}
+
+.fa-play {
+    margin-right: 10px;
+    color: #f1ba4c!important;
 }
 
 .fa-arrow-down {
     margin-right: 10px;
-    color: #f1ba4c;
+    color: #f1ba4c!important;
 }
 
+.is-small {
+    font-size: 16px!important;
+    line-height: 1.25em!important;
+    font-weight: 300!important;
+}
+
+.nandik{
+    color: #f1ba4c!important;
+    padding-left: 5px;
+}
+
+
+.shaund{
+    color: #f1ba4c!important;
+    padding-left: 5px;
+}
+
+.leo{
+    color: #f1ba4c!important;
+    padding-left: 5px;
+}
+
+
+.is-warning {
+    background-color: #f1ba4c!important;
+    color: black;
+}

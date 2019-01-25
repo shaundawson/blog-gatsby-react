@@ -25,7 +25,7 @@ function BlogPost(props) {
                 pathname={props.location.pathname}
             />
             <div className="container">
-            <h1 className="title is-2  ">{title}</h1>
+            <h1 className="title is-4">{title}</h1>
             <br></br>
                 {image && <Img fluid={image.childImageSharp.fluid} />}
                 <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }} />
@@ -40,7 +40,9 @@ function BlogPost(props) {
                 </div>
                 <br></br>
                 <div className="prev-next">
-                <PrevNext prev={prev && prev.node} next={next && next.node} />
+                <PrevNext 
+                prev= {prev && prev.node} 
+                next={next && next.node} />
                 </div>
             </div>
         </Layout>

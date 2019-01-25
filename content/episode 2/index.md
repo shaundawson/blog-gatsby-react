@@ -12,7 +12,7 @@ tags: ["myles ", "avivajaye"]
 <br>
 <br>
 
-<div class="content is-medium">
+<div class="content is-small">
 What is the “afro- future” of music? We’ve seen it change so drastically over the past 15 years. From records and tapes, to cds and mp3s,to limewire and napster, now we stream everything. It’s made a significant impact on how professional musicians make money, and it’s lifted the gate on who can not only MAKE music, but also get it heard, i.e. the Internet. “Music ain’t what it used to be” has never been so relevant. How is this statement relevant when we look at Black music and it’s impact over this same amount of time. Rap and Hip Hop reaches far and wide, and soul/jazz started spreading across the globe with icons like of Sarah Vaughn, Louis Armstrong, and Nina Simone, to Quincy Jones and Aretha Franklin. 
 <br>
 <br>
@@ -23,7 +23,7 @@ Aviva Jaye & Myles share their thoughts.
 </div>
 
 <p class="title is-4">Show Notes</p>
-<div class="content is-medium">
+<div class="content is-small">
 <b> Myles</b> is an all around performer. He sings, dances, acts and writes. His primary love is singing and is big on artist collaboration. He believes that he could not live without creativity.
 
 <br>

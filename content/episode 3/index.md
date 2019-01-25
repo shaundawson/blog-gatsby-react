@@ -14,12 +14,12 @@ tags: ["comfycosi ", "kierraleone"]
 <br>
 <br>
 
-<div class="content is-medium">
+<div class="content is-small">
 It’s bigger than religion.. Hip-hop. (E. Badu) But my, My, MY has it changed. We’ve seen the revolution and the evolution of Hip-Hop. On this episode I wanna get into the good changes, the bad changes. What we’re happy about happy about hearing, what makes us mad to hear. Did radio kill hip-hop and give rise to Rap? This episode is meant to be a thorough examination of the current state of Hip-Hop/Rap. From R. Kelly backlash to Drake, to Cardi vs Nicki, Cosi && Ms. Kierra Leone give us their takes.
 </div>
 
 <p class="title is-4">Show Notes</p>
-<div class="content is-medium">
+<div class="content is-small">
 <b> ComfyCosi (co’zi)</b> is one-third and the creator of the Run The Tape Podcast, New York's premiere podcast dedicated to music discovery focusing on some of the best the City has to offer. Hailing from Brooklyn, by way of Europe and the Mid-Atlantic, he's a subscriber to all things of the culture and the progression of black women in our patriarchal society and an ambassador of the "cancel" movement. Aside from that, he's the Content Director for Bask New York, an emerging creative agency focusing on merging the hipsters with the cultural influencers and those that you need to know.
 <br>
 <br>

@@ -45,7 +45,7 @@ const Layout = ({ children }) => (
         <div>
           {children}
         <footer className="footer">
-        <div className="content has-text-centered is-small" >
+        <div className="content has-text-centered" >
         <p>
               <strong>Streaming on
                <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hdWRpb2Jvb20uY29tL2NoYW5uZWxzLzQ5ODI3MzgucnNz" target="_blank" rel="noopener noreferrer" >    Google Play,</a>

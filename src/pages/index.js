@@ -1,7 +1,7 @@
 import React from 'react';
 import './post.css';
 import Layout from '../components/layout';
-
+import 'bulma/css/bulma.css'
 
 
 
