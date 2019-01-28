@@ -3,7 +3,7 @@ title: "Episode 001: Blackademia | 71 min"
 description: This week I have Hari Ziyad and Ahmad Greene-Hayes over for dinner to talk about Education and Blackness
 date: '2018-12-20'
 image: 'blackademia.jpg'
-tags: ["hariziyad ", "ahmadgreenhayes "]
+tags: ["hariziyad ", "ahmadgreenhayes ", "ellentube ", "kevinhart4real ", "racebaitr "]
 ---
 
 <div>
