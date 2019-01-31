@@ -25,11 +25,13 @@ const Layout = ({ children }) => (
           meta={[
             { name: 'description', content: 'Black Friends Dinner is a table side conversation where guests navigate what it means to value Black lives in a world that does not.' },
             { name: 'keywords', content: 'podcast, black friends dinner, nandikayyy' },
+            { name: 'google-site-verification', content: 'B5KUPdtAkR8a_Knjp3LNNxowFj52GMsIHtsQyEQowC0' },
 
             
           ]}
           script={[
             { 'src': 'https://use.fontawesome.com/releases/v5.0.7/js/all.js'},
+            
 
           ]}
 

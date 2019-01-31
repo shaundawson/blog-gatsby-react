@@ -20,6 +20,7 @@ const IndexPage = (props) => {
     <iframe src="https://embeds.audioboom.com/posts/7157964-episode-004-black-boi-flyyy/embed/v4?eid=AQAAAKErU1zMOG0A" 
     height="350" 
     width="350" 
+    allow="encrypted-media"
     >
     </iframe>
     </center>
