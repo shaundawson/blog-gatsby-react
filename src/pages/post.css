@@ -24,7 +24,6 @@
 
 .video-container {
     position: relative!important;
-    width: 100%!important;
     overflow:hidden!important;
 }
 
@@ -120,7 +119,6 @@ a link {
     
 }
 
-
 .navbar-burger{
     color: #f1ba4c!important;
     background-color: #442754!important;
@@ -133,9 +131,7 @@ a link {
 
 a.navbar-item:hover {
     background-color: #442754!important;
-    color: #f1ba4c!important;
-    
-
+    color: #f1ba4c!important;    
 }
 
 .post-list:hover{
@@ -204,7 +200,6 @@ a.navbar-item:hover {
     color: #f1ba4c!important;
     padding-left: 5px;
 }
-
 
 .is-warning {
     background-color: #f1ba4c!important;

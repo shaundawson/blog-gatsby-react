@@ -15,9 +15,9 @@ const IndexPage = (props) => {
     <h1 className="title is-latest">
     <i className="fas fa-arrow-down"></i>
     latest episode</h1> 
-    <div className="video-container is-fluid">
+    <div className="video-container">
     <center>
-    <iframe src="https://embeds.audioboom.com/posts/7146191-episode-003-hip-hop-made-the-instagram-star/embed/v4?eid=AQAAABVtRlzPCm0A" 
+    <iframe src="https://embeds.audioboom.com/posts/7157964-episode-004-black-boi-flyyy/embed/v4?eid=AQAAAKErU1zMOG0A" 
     height="350" 
     width="350" 
     >
