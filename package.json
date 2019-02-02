@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Shaun Dawson <iamsdawson@gmail.com>",
   "dependencies": {
+    "axios": "^0.18.0",
     "bulma": "^0.7.2",
     "gatsby": "^2.0.73",
     "gatsby-cli": "^2.4.8",
