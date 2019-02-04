@@ -95,9 +95,10 @@
 .is-latest {
     text-align: center;
     color: #442754!important;
-    font-size: 20px!important;
+    font-size: 30px!important;
     font-weight: 300!important;
     margin-top: 0px!important;
+    padding-bottom:30px!important;
 }
 
 .is-3 {
@@ -124,10 +125,9 @@ a link {
     margin-left: 5px!important;
 }
 
-
 .post-list {
-    border: 1px solid  #f1ba4c!important;
-    padding: .5rem;
+    border: 0.5px solid  #f1ba4c!important;
+    padding: .9rem;
     margin: 1rem;
     background-color: white;
     
@@ -185,7 +185,6 @@ a.navbar-item:hover {
 }
 
 .contact{
-    padding-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
     width: 100%;

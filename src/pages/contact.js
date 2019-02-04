@@ -1,63 +1,24 @@
-import React, { Component } from 'react';  
-import Layout from '../components/layout';
-import './post.css';
-const axios = require('axios');
+import React from 'react'
+import Layout from '../components/layout'
+import './post.css'
 
 
-export default class Contact extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      contactName: '',
-      contactEmail: '',
-      contactMessage: '',
-      mailSent: false,
-      error: null
-    }
-  }
-
-  handleFormSubmit = e => {
-    e.preventDefault();
-    console.log(this.state)
-    axios.post({
-      url: 'public/index.php',
-      headers: { 'content-type': 'application/json' },
-      data: this.state
-    })
-      .then(result => {
-        this.setState({
-          mailSent: result.data.sent
-        })
-        console.log(this.state);
-      })
-      .catch(error => this.setState({ error: error.message }));
-  };
-
-  render() {
-    return (
+const Contact = () => (
   <Layout>
-  <section id= "contact">
   <div className="contact contact-hero is-centered">
-  <h2 className="title is-light"> Send us a message
+  <h2 className="title is-3 is-light"> Send us a message
   </h2>
-  <form action="#" id="contactForm" method="POST" name="contactForm">
     <div className="field">
-      <label className="label is-light is-small" id="contactName">Name</label>
+      <label className="label is-light is-small">Name</label>
         <div className="control">
-        <input className="input is-dark is-small" type="text" size={35}  name="contactName" placeholder="Your Name"
-        value={this.state.contactName}
-        onChange={e => this.setState({ contactName: e.target.value })}
-        />
-        
+        <input className="input is-dark is-small" type="text" placeholder="Your Name"/>
         </div>
     </div>
+    <form action="https://formkeep.com/f/d9befcf116d3" method="POST" name="name">
         <div className="field">
         <label className="label is-light is-small">Email</label>
   <div className="control has-icons-left has-icons-right">
-    <input className="input is-dark is-small" type="email" size={35} name="contactEmail" id="contactEmail" placeholder="Your Email" 
-    value={this.state.contactEmail}
-    onChange={e => this.setState({ contactEmail: e.target.value })}
-    />
+    <input className="input is-dark is-small" type="email" name="_reply" placeholder="Your Email" />
     <span className="icon is-small is-left">
       <i className="fas fa-envelope"></i>
     </span>
@@ -65,37 +26,21 @@ export default class Contact extends Component {
 </div>
 
 <div className="field">
-<label className="label is-light is-small">Subject</label>
-  <div className="control">
-  <input className="input is-dark is-small" type="text" name="contactSubject" placeholder="Subject"/>
-  </div>
-</div>
-
-<div className="field">
   <label className="label is-light is-small">Message</label>
   <div className="control">
-    <textarea className="textarea is-dark is-small" name="contactMessage" placeholder="Type message here" 
-    onChange={e => this.setState({ contactMessage: e.target.value })}
-    value={this.state.message}
-    />
+    <textarea className="textarea is-dark is-small" name="message" placeholder="Type message here"></textarea>
   </div>
 </div>
 <br></br>
 
-<div className="field is-grouped">
-    <input type="submit" onClick={e => this.handleFormSubmit(e)} value="Submit" />
-    <div className="control">
+<div className="field is-grouped is-small">
+  <div className="control">
+    <button className="button is-warning is-small" type="submit">Send</button>
   </div>
-</div>
-<div>
-  {this.state.mailSent &&
-    <div>Thank you for contcting us.</div>
-  }
 </div>
 </form>
 </div>
-</section>
 </Layout>
-);
-}
-}
+)
+
+export default Contact

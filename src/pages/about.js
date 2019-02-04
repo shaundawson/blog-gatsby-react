@@ -4,7 +4,7 @@ import '../pages/post.css';
 
 const About= () => (
   <Layout>
-  <section className="hero is-medium about-hero">
+  <section className="hero is-small about-hero">
   <div className="hero-body">
       <h2 className="title is-light"> About Black Friends Dinner
       </h2>
@@ -35,7 +35,7 @@ const About= () => (
         Leonidas</a>
          </p>
            <p className="has-text">
-             <a className="button is-medium is-warning" href='/contact'>
+             <a className="button is-small is-warning" href='/contact'>
              Contact Us
              </a>
               </p>
