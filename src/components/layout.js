@@ -1,11 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import './layout.css';
-import { StaticQuery, graphql } from 'gatsby'
-import Navbar from './navbar'
-import ReactGA from 'react-ga';
-ReactGA.initialize('UA-46106886-2');
-ReactGA.pageview(window.location.pathname + window.location.search);
+import { StaticQuery, graphql } from 'gatsby';
+import Navbar from './navbar';
 
 
 
@@ -36,9 +33,7 @@ const Layout = ({ children }) => (
           script={[
             { 'src': 'https://use.fontawesome.com/releases/v5.0.7/js/all.js'},
             { 'src': 'http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'},
-
-            
-
+            { 'src': 'https://www.googletagmanager.com/gtag/js?id=UA-46106886-2'},
           ]}
 
           link={[

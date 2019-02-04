@@ -33,6 +33,23 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-46106886-2",
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "blackfriendsdinner.com",
+      },
+    },
+
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content`,
