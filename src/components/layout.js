@@ -3,6 +3,9 @@ import Helmet from 'react-helmet'
 import './layout.css';
 import { StaticQuery, graphql } from 'gatsby'
 import Navbar from './navbar'
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-46106886-2');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 
 
