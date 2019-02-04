@@ -1,10 +1,8 @@
 import React, { Component } from 'react';  
 import Layout from '../components/layout';
 import './post.css';
-import axios from 'axios';
+const axios = require('axios');
 
-
-const API_PATH = 'https://github.com/shaundawson/blog-gatsby-react/blob/master/public/inc/index.php';
 
 export default class Contact extends Component {
   constructor(props) {
@@ -20,9 +18,9 @@ export default class Contact extends Component {
 
   handleFormSubmit = e => {
     e.preventDefault();
-    axios({
-      method: 'post',
-      url: `${API_PATH}`,
+    console.log(this.state)
+    axios.post({
+      url: 'public/index.php',
       headers: { 'content-type': 'application/json' },
       data: this.state
     })
@@ -30,6 +28,7 @@ export default class Contact extends Component {
         this.setState({
           mailSent: result.data.sent
         })
+        console.log(this.state);
       })
       .catch(error => this.setState({ error: error.message }));
   };
@@ -41,7 +40,7 @@ export default class Contact extends Component {
   <div className="contact contact-hero is-centered">
   <h2 className="title is-light"> Send us a message
   </h2>
-  <form action="#" id="contactForm" name="contactForm">
+  <form action="#" id="contactForm" method="POST" name="contactForm">
     <div className="field">
       <label className="label is-light is-small" id="contactName">Name</label>
         <div className="control">
@@ -68,7 +67,7 @@ export default class Contact extends Component {
 <div className="field">
 <label className="label is-light is-small">Subject</label>
   <div className="control">
-  <input className="input is-dark is-small" type="text" size={35} name="contactSubject" placeholder="Subject"/>
+  <input className="input is-dark is-small" type="text" name="contactSubject" placeholder="Subject"/>
   </div>
 </div>
 
@@ -77,7 +76,7 @@ export default class Contact extends Component {
   <div className="control">
     <textarea className="textarea is-dark is-small" name="contactMessage" placeholder="Type message here" 
     onChange={e => this.setState({ contactMessage: e.target.value })}
-    å
+    value={this.state.message}
     />
   </div>
 </div>

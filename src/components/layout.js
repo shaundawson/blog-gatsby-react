@@ -6,6 +6,7 @@ import Navbar from './navbar'
 
 
 
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -31,6 +32,8 @@ const Layout = ({ children }) => (
           ]}
           script={[
             { 'src': 'https://use.fontawesome.com/releases/v5.0.7/js/all.js'},
+            { 'src': 'http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'},
+
             
 
           ]}

@@ -6,6 +6,15 @@
     overflow: hidden!important;
 }
 
+.section {
+    padding:35px!important;
+}
+
+.is-right {
+    margin-left: 3%!important;
+
+}
+
 .is-light{
     color: white!important;
     font-size: 24px!important;
@@ -33,6 +42,11 @@
     background-color: #442555;
 } 
 
+.dropdown-content{
+    background-color: #442555!important;
+    color: white!important
+}
+
 .contact-hero {
     background-size: contain!important;
     background-position: top!important; 
@@ -49,7 +63,7 @@
 .has-bg-img { 
     background-image: url('https://i.imgur.com/X0Uy9Uc.png'); 
     background-size: contain;
-    height: 625px;
+    height: 450px;
     background-repeat: no-repeat;
     background-position: center; 
     background-color: #442555;
@@ -83,7 +97,7 @@
     color: #442754!important;
     font-size: 20px!important;
     font-weight: 300!important;
-    padding-top: -50px!important;
+    margin-top: 0px!important;
 }
 
 .is-3 {
@@ -128,6 +142,14 @@ a link {
     background-color: #442754!important;
 }
 
+.dropdown-menu.is-active {
+    background-color: #442754!important;
+}
+
+a.dropdown-item:hover {
+    background-color: #442754!important;
+    color: #f1ba4c!important;    
+}
 
 a.navbar-item:hover {
     background-color: #442754!important;
@@ -205,3 +227,4 @@ a.navbar-item:hover {
     background-color: #f1ba4c!important;
     color: black;
 }
+
