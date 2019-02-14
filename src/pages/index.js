@@ -19,19 +19,16 @@ class IndexPage extends React.Component {
   render() {
   return (
     <Layout>
-    <section className="hero has-bg-img is-medium">
-    <div class="dropdown is-right">
-    <div class="dropdown-trigger">
-      <button class="button is-warning" onClick={this.toggleSub}>
-        <span>Subscribe</span>
-        <span class="icon is-small">
-          <i class="fas fa-angle-right" aria-hidden="true"></i>
-        </span>
+    <section className="hero has-bg-img is-large">
+    <div className="dropdown is-right">
+    <div className="dropdown-trigger">
+      <button className="button is-rounded is-inverted is-outlined is-responsive" onClick={this.toggleSub}>
+        Subscribe
       </button>
     </div>
-    <div class= { this.state.isActive ? 'dropdown-menu is-active' : 'dropdown-item'}>
-      <div class="dropdown-content">
-        <div class="dropdown-item">
+    <div className= { this.state.isActive ? 'dropdown-menu is-active' : 'dropdown-item'}>
+      <div className="dropdown-content">
+        <div className="dropdown-item">
         <a className="dropdown-item is-light is-small" href="https://itunes.apple.com/us/podcast/black-friends-dinner/id1447664860?mt=2&ls=1&ign-mpt=uo%3D4" target="blank">
         Apple Podcasts
       </a>
@@ -56,7 +53,7 @@ class IndexPage extends React.Component {
     latest episode</h1> 
     <div className="video-container">
     <center>
-    <iframe src="https://embeds.audioboom.com/posts/7157964-episode-004-black-boi-flyyy/embed/v4?eid=AQAAAKErU1zMOG0A" 
+    <iframe src="https://embeds.audioboom.com/posts/7174452-episode-005-black-and/embed/v4?eid=AQAAAEHuZFw0eW0A" 
     height="350" 
     width="350" 
     allow="encrypted-media"

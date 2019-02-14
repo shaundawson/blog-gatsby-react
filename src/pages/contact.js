@@ -8,37 +8,14 @@ const Contact = () => (
   <div className="contact contact-hero is-centered">
   <h2 className="title is-3 is-light"> Send us a message
   </h2>
-    <div className="field">
-      <label className="label is-light is-small">Name</label>
-        <div className="control">
-        <input className="input is-dark is-small" type="text" placeholder="Your Name"/>
-        </div>
-    </div>
-    <form action="https://formkeep.com/f/d9befcf116d3" method="POST" name="name">
-        <div className="field">
-        <label className="label is-light is-small">Email</label>
-  <div className="control has-icons-left has-icons-right">
-    <input className="input is-dark is-small" type="email" name="_reply" placeholder="Your Email" />
-    <span className="icon is-small is-left">
-      <i className="fas fa-envelope"></i>
-    </span>
-  </div>
-</div>
-
-<div className="field">
-  <label className="label is-light is-small">Message</label>
-  <div className="control">
-    <textarea className="textarea is-dark is-small" name="message" placeholder="Type message here"></textarea>
-  </div>
-</div>
-<br></br>
-
-<div className="field is-grouped is-small">
-  <div className="control">
-    <button className="button is-warning is-small" type="submit">Send</button>
-  </div>
-</div>
-</form>
+  <iframe src="https://iamsdawson.formstack.com/forms/blackfriendsdinner" 
+  height="650" 
+  width="100%" 
+  scrolling="no"
+  allow="encrypted-media"
+  >
+  </iframe>
+   
 </div>
 </Layout>
 )

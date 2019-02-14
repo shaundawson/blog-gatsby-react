@@ -3,8 +3,13 @@ import Helmet from 'react-helmet'
 import './layout.css';
 import { StaticQuery, graphql } from 'gatsby';
 import Navbar from './navbar';
+import ReactGA from 'react-ga';
 
 
+function initializeReactGA() {
+  ReactGA.initialize('UA-46106886-2');
+  ReactGA.pageview('/homepage');
+}
 
 
 const Layout = ({ children }) => (

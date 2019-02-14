@@ -35,7 +35,7 @@ const About= () => (
         Leonidas</a>
          </p>
            <p className="has-text">
-             <a className="button is-small is-warning" href='/contact'>
+             <a className="button is-rounded is-inverted is-outlined" href='/contact'>
              Contact Us
              </a>
               </p>

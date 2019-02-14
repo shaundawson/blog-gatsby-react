@@ -21,7 +21,7 @@ class Header extends React.Component {
           <span className="icon" style={{ color: '#fff',}}>
           <i className="fas fa-headphones"></i>
         </span>
-            <span>Black Friends Dinner Podcast</span>
+            <span>Home</span>
           </a>
           <button className="button navbar-burger" onClick={this.toggleNav}>
             <span></span>

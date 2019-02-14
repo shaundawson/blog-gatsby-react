@@ -15,6 +15,12 @@
 
 }
 
+.is-rounded {
+    background-color: transparent!important;
+    color: white!important;
+
+}
+
 .is-light{
     color: white!important;
     font-size: 24px!important;
@@ -32,6 +38,7 @@
 }
 
 .video-container {
+    padding: 18px!important;
     position: relative!important;
     overflow:hidden!important;
 }
@@ -61,7 +68,7 @@
 } 
 
 .has-bg-img { 
-    background-image: url('https://i.imgur.com/X0Uy9Uc.png'); 
+    background-image: url('https://i.imgur.com/T9NQy2w.png'); 
     background-size: contain;
     height: 450px;
     background-repeat: no-repeat;
@@ -95,10 +102,10 @@
 .is-latest {
     text-align: center;
     color: #442754!important;
-    font-size: 30px!important;
+    font-size: 38px!important;
     font-weight: 300!important;
     margin-top: 0px!important;
-    padding-bottom:30px!important;
+    padding-bottom:10px!important;
 }
 
 .is-3 {
@@ -127,7 +134,7 @@ a link {
 
 .post-list {
     border: 0.5px solid  #f1ba4c!important;
-    padding: .9rem;
+    padding: .5rem;
     margin: 1rem;
     background-color: white;
     
@@ -217,6 +224,8 @@ a.navbar-item:hover {
     padding-left: 5px;
 }
 
+
+
 .leo{
     color: #f1ba4c!important;
     padding-left: 5px;
@@ -224,6 +233,6 @@ a.navbar-item:hover {
 
 .is-warning {
     background-color: #f1ba4c!important;
-    color: black;
+
 }
 
