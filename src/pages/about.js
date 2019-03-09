@@ -34,11 +34,7 @@ const About= () => (
         target="_blank" rel="noopener noreferrer" >   
         Leonidas</a>
          </p>
-           <p className="has-text">
-             <a className="button is-rounded is-inverted is-outlined" href='/contact'>
-             Contact Us
-             </a>
-              </p>
+
               </div>
 </section>
 </Layout>

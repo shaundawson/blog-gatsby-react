@@ -23,18 +23,35 @@ class IndexPage extends React.Component {
     <section className="hero has-bg-img is-large">
     </section>
     <section className="section">
-  <div className="container is-fluid">
+  <div className="container">
     
     <div class="columns">
     <div class="column">
     <h1 className="title is-latest">
-    <i className="fas fa-arrow-down"></i>
-    latest episode. </h1> 
+    <a href="/episodes">
+    episodes (6) </a></h1> 
+    <h2>S1 E6 | 03/01/19</h2>
+    <h3>Black Bawdy</h3>
+    <h3>17 min</h3>
+<hr></hr>
+    <h1 className="title is-latest">
+   <a href ="/episode%206"> <i className="fas fa-play"></i> 
+    LISTEN TO FULL EPISODE </a> </h1>
+    <p>
+    From appearance and insecurities to agency over our own bodies in the world we live in. What does it mean to walk around in a Black body? Is there an acceptable way to be  Black?? It’s lusted after and its feared...
+    <br></br>
+    <a href ="/episode%206"> 
+    READ MORE
+    </a>
+    </p>
+    <hr></hr>
+    
+
     </div>
     <div class="column">
     <div className="form-container">
     <h1 className="title is-latest">
-    <i className="fas fa-arrow-down"></i>
+    <i className="fas fa-comments"></i>
     hit us up. </h1> 
     <HubspotForm
     portalId='5429329'

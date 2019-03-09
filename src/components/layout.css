@@ -1,5 +1,7 @@
 .footer {
     font-size: 10px!important;
+    background-color: #442754!important;
+    color: white!important;
 }
 
 .navbar {
@@ -15,6 +17,5 @@
 .fa-level-down-alt{
     margin-right: 2px;
 }
-
 
 

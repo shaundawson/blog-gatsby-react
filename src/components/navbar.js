@@ -60,8 +60,11 @@ class Header extends React.Component {
           </div>
           </div>
           <div className="navbar-end">
-          <a className="navbar-item" href="https://www.facebook.com/BlackFriendsDinner/" href='/contact'>
-        </a>
+        <a className="navbar-item" href="https://instagram.com/blackfriendsdinner" target="blank">
+        <span className="icon" style={{ color: '#fff',}}>
+          <i className="fab fa-lg fa-instagram"></i>
+        </span>
+      </a>
             <a className="navbar-item" href="https://twitter.com/blackfriendsdin" target="blank">
               <span className="icon" style={{ color: '#fff',}}>
                 <i className="fab fa-lg fa-twitter"></i>

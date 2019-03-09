@@ -55,12 +55,11 @@ const Layout = ({ children }) => (
         <footer className="footer">
         <div className="content has-text-centered" >
         <p>
-              <strong>Streaming on
+              Streaming on
                <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hdWRpb2Jvb20uY29tL2NoYW5uZWxzLzQ5ODI3MzgucnNz" target="_blank" rel="noopener noreferrer" >    Google Play,</a>
                <a href="https://itunes.apple.com/us/podcast/black-friends-dinner/id1447664860?mt=2&ls=1&ign-mpt=uo%3D4" target="_blank" rel="noopener noreferrer" >    Itunes, </a>
                <a href="https://open.spotify.com/show/5xBPxVpKQxE1Ut5TkEWLjH" target="_blank" rel="noopener noreferrer" >    Spotify,</a>
                <a href="https://audioboom.com/channels/4982738.rss" target="_blank"  rel="noopener noreferrer">    and RSS</a>.
-               </strong>
                <br></br>
               This site was coded by 
               <a href="http://www.iamsdawson.com" target="_blank" rel="noopener noreferrer"> Shaun Dawson</a>. 
