@@ -37,6 +37,27 @@ class Header extends React.Component {
             <a className="navbar-item" href="/episodes">
               Episodes
             </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+             Subscribe
+            </a>
+            <div className="navbar-dropdown">
+            <a className="navbar-item">
+            Google Play
+          </a>
+          <a class="navbar-item">
+            Itunes
+          </a>
+          <a class="navbar-item">
+            Spotify
+          </a>
+          <hr class="navbar-divider"/>
+          <a class="navbar-item">
+            RSS
+          </a>
+            </div>
+          </div>
           </div>
           <div className="navbar-end">
           <a className="navbar-item" href="https://www.facebook.com/BlackFriendsDinner/" href='/contact'>

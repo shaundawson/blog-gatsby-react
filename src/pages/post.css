@@ -38,8 +38,7 @@
 }
 
 .form-container {
-    padding: 18px!important;
-    position: relative!important;
+    width: 100%!important;
 }
 
 .about-hero {
