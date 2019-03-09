@@ -37,9 +37,6 @@ class Header extends React.Component {
             <a className="navbar-item" href="/episodes">
               Episodes
             </a>
-            <a className="navbar-item" href="/contact">
-            Contact
-            </a>
           </div>
           <div className="navbar-end">
           <a className="navbar-item" href="https://www.facebook.com/BlackFriendsDinner/" href='/contact'>
