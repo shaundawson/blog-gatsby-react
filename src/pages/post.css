@@ -145,7 +145,8 @@ a link {
 }
 
 .navbar-link{
-    color: #f1ba4c!important;
+    background-color:  #442754!important;
+    color: white!important;
 }
 
 .navbar-burger{

@@ -35,12 +35,12 @@ class IndexPage extends React.Component {
     <h3>17 min</h3>
 <hr></hr>
     <h1 className="title is-latest">
-   <a href ="/episode%206"> <i className="fas fa-play"></i> 
+   <a href ="/episode%206%20"> <i className="fas fa-play"></i> 
     LISTEN TO FULL EPISODE </a> </h1>
     <p>
     From appearance and insecurities to agency over our own bodies in the world we live in. What does it mean to walk around in a Black body? Is there an acceptable way to be  Black?? It’s lusted after and its feared...
     <br></br>
-    <a href ="/episode%206"> 
+    <a href ="/episode%206%20"> 
     READ MORE
     </a>
     </p>
