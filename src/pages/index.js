@@ -28,15 +28,15 @@ class IndexPage extends React.Component {
     <div class="columns">
     <div class="column">
     <h1 className="title is-latest">
-    <a href="/episodes">
+    <a href="/episode%207">
     episodes (7) </a></h1> 
     <h2>Episode 7 | 03/21/19</h2>
     <h3>Assigned Sex</h3>
     <h3>54 min</h3>
 <hr></hr>
-    <h1 className="title is-latest">
-   <a href ="/episode%206%20"> <i className="fas fa-play"></i> 
-    LISTEN TO FULL EPISODE </a> </h1>
+    <h2 className="title is-latest">
+   <a href ="/episode%207"> <i className="fas fa-play"></i> 
+    LISTEN TO FULL EPISODE </a> </h2>
     <p>
     Our resident producer, audio engineer and my personal boo, Shaun dug deep to let us in on the making of their documentary Assigned Sex. The 30 minute short presents uncomfortable perspectives from both trans and cisgender people of color with the hopes of starting a necessary conversation to reduce stigma, eliminate bias and increase inclusion. Shaun explores gender and sexuality through the lens of Angel, a 23- year old preacher’s kid assigned male at birth
     <br></br>

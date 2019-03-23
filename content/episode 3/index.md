@@ -1,5 +1,5 @@
 ---
-title: "Episode 003: Hip Hop Made the Instagram Star| 85 min"
+title: "Episode 003: Hip Hop Made the Instagram Star | 85 min"
 description: From R. Kelly backlash to Drake, to Cardi vs Nicki, Cosi && Ms. Kierra Leone give us their takes.
 date: '2019-01-17'
 image: 'afrofuture.jpg'

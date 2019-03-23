@@ -1,5 +1,5 @@
 ---
-title: "Episode 006: Black Bawdy| 17 min"
+title: "Episode 006: Black Bawdy | 17 min"
 description:  My friends and I explore the intersections and interactions of “Black And….” from being being black and bi-racial to black and gay, black & non-binary, etc,
 date: '2019-03-01'
 image: 'afrofuture.jpg'

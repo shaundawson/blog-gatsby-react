@@ -1,5 +1,5 @@
 ---
-title: "Episode 005: Black And...| 56 min"
+title: "Episode 005: Black And... | 56 min"
 description:  My friends and I explore the intersections and interactions of “Black And….” from being being black and bi-racial to black and gay, black & non-binary, etc,
 date: '2019-02-14'
 image: 'afrofuture.jpg'

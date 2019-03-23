@@ -1,9 +1,9 @@
 ---
-title: "Episode 007: Assigned Sex | 17 min"
+title: "Episode 007: Assigned Sex | 54 min"
 description:  ASSIGNED SEX aims to provide a crash course in gender studies and strengthen the Black community by starting a challenging conversation. This education is necessary to reduce stigma, eliminate bias and increase inclusion.
 date: '2019-03-21'
 image: 'afrofuture.jpg'
-tags: ["assignedsex ", "qtpoc ", "trans ", "tpoc ", "lil duval "]
+tags: ["assignedsex ", "qtpoc ", "trans ", "tpoc ", "lilduval "]
 ---
 
 <div>
