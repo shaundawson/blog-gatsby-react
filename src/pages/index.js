@@ -28,7 +28,7 @@ class IndexPage extends React.Component {
     <div class="columns">
     <div class="column">
     <h1 className="title is-latest">
-    <a href="/episode%207">
+    <a href="/episodes">
     episodes (7) </a></h1> 
     <h2>Episode 7 | 03/21/19</h2>
     <h3>Assigned Sex</h3>

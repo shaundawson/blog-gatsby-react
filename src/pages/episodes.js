@@ -19,8 +19,7 @@ const Episodes = (props) => {
             <i className="fas fa-play"></i>
             </span>{node.frontmatter.title}</p>
             <p className="subtitle is-7">{node.frontmatter.date}</p>
-            <p className="subtitle is-7 is-tags is-primary"> Tags: {node.frontmatter.tags}</p>    
-            <p className="subtitle is-7"> {node.excerpt}</p>          
+            <p className="subtitle is-7 is-tags is-primary"> Tags: {node.frontmatter.tags}</p>       
           </div>
         </Link>
       ))}

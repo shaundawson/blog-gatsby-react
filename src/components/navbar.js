@@ -39,7 +39,7 @@ class Header extends React.Component {
             </a>
 
             <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
+            <a class="navbar-link" href='/'>
              Subscribe
             </a>
             <div className="navbar-dropdown">
